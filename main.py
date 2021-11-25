@@ -7,4 +7,4 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message":"Eu sou o microservico 2"}
+    return {"message":"Eu sou o microservico 2 eu vou fazer uma alteração"}
